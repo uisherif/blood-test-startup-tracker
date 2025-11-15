@@ -58,7 +58,7 @@ export async function searchStartupNews(startup: Startup, daysBack: number = 1):
         continue;
       }
 
-      const data = await response.json();
+      const data = await response.json() as { articles?: any[] };
 
       if (data.articles && data.articles.length > 0) {
         console.log(`   ✅ Found ${data.articles.length} articles for "${query}"`);
