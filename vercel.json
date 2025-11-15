@@ -1,7 +1,8 @@
 {
-  "buildCommand": "npm run build --workspace=packages/web",
+  "buildCommand": "cd packages/web && npm install && npm run build",
   "outputDirectory": "packages/web/dist",
-  "installCommand": "npm install",
+  "installCommand": "npm install --prefix packages/web",
+  "devCommand": "cd packages/web && npm run dev",
   "framework": null,
   "rewrites": [
     {
