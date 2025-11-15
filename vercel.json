@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd packages/shared && npm run build && cd ../web && npm run build",
+  "buildCommand": "pwd && ls -la && cd packages/shared && npm run build && cd ../web && npm run build",
   "installCommand": "npm install",
   "outputDirectory": "packages/web/dist",
   "rewrites": [
