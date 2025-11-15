@@ -1,0 +1,97 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Blood Test Startup",
+  "description": "Schema for tracking blood test startup metrics",
+  "type": "object",
+  "required": ["id", "name", "website", "description", "founded"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier (kebab-case)"
+    },
+    "name": {
+      "type": "string",
+      "description": "Company name"
+    },
+    "website": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief company description"
+    },
+    "founded": {
+      "type": "integer",
+      "description": "Year founded"
+    },
+    "headquarters": {
+      "type": "string",
+      "description": "HQ location"
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "totalFunding": {
+          "type": ["number", "null"],
+          "description": "Total funding in USD"
+        },
+        "lastFundingRound": {
+          "type": ["object", "null"],
+          "properties": {
+            "amount": {
+              "type": "number"
+            },
+            "type": {
+              "type": "string"
+            },
+            "date": {
+              "type": "string",
+              "format": "date"
+            }
+          }
+        },
+        "estimatedUsers": {
+          "type": ["number", "null"],
+          "description": "Estimated user/member count"
+        },
+        "employeeCount": {
+          "type": ["number", "null"],
+          "description": "Number of employees"
+        },
+        "valuation": {
+          "type": ["number", "null"],
+          "description": "Company valuation in USD"
+        },
+        "publicTrading": {
+          "type": ["object", "null"],
+          "properties": {
+            "ticker": {
+              "type": "string"
+            },
+            "exchange": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "founders": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "keyFeatures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date metrics were last updated"
+    }
+  }
+}

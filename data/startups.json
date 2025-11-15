@@ -1,0 +1,175 @@
+[
+  {
+    "id": "function-health",
+    "name": "Function Health",
+    "website": "https://functionhealth.com",
+    "description": "Fastest-growing preventative health platform in the US offering 100+ lab tests, recently acquired Ezra for full-body MRI capabilities",
+    "founded": 2021,
+    "headquarters": "San Francisco, CA",
+    "metrics": {
+      "totalFunding": 306000000,
+      "lastFundingRound": {
+        "amount": 200000000,
+        "type": "Series B",
+        "date": "2025-02"
+      },
+      "estimatedUsers": 200000,
+      "employeeCount": 150,
+      "valuation": 2500000000,
+      "revenue": 100000000
+    },
+    "founders": ["Dr. Mark Hyman", "Pieter Cohen"],
+    "keyFeatures": [
+      "Over 100 lab tests included",
+      "$499/year membership model",
+      "Preventative health focus",
+      "200,000+ members (May 2025)",
+      "Full-body MRI through Ezra acquisition",
+      "Celebrity-backed (Matt Damon, Kevin Hart, Pedro Pascal)"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "insidetracker",
+    "name": "InsideTracker",
+    "website": "https://insidetracker.com",
+    "description": "AI-powered personalized health analytics platform using blood, DNA, and fitness tracker data for healthspan optimization",
+    "founded": 2009,
+    "headquarters": "Cambridge, MA",
+    "metrics": {
+      "totalFunding": 19000000,
+      "lastFundingRound": {
+        "amount": 15000000,
+        "type": "Series B",
+        "date": "2022-09"
+      },
+      "estimatedUsers": 100000,
+      "employeeCount": 100,
+      "valuation": 30000000
+    },
+    "founders": ["Gil Blander", "Segtnan Grimsgaard"],
+    "keyFeatures": [
+      "100,000+ customers",
+      "Personalized AI recommendations",
+      "DNA analysis integration",
+      "Fitness tracker sync",
+      "InnerAge biological age tracking",
+      "80% of users improve at-risk biomarkers",
+      "Science-backed interventions"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "everlywell",
+    "name": "Everlywell",
+    "website": "https://everlywell.com",
+    "description": "#1 at-home lab testing brand in the US, delivering nearly 1 billion personalized health insights to 60+ million people",
+    "founded": 2015,
+    "headquarters": "Austin, TX",
+    "metrics": {
+      "totalFunding": 325000000,
+      "lastFundingRound": {
+        "amount": 75000000,
+        "type": "Secondary Market",
+        "date": "2021-01"
+      },
+      "estimatedUsers": 60000000,
+      "employeeCount": 500,
+      "valuation": 1300000000
+    },
+    "founders": ["Julia Cheek"],
+    "keyFeatures": [
+      "60+ million users served",
+      "1 in 86 US households in 2024",
+      "At-home testing kits",
+      "Wide test variety (40+ tests)",
+      "Physician-reviewed results",
+      "FSA/HSA eligible",
+      "Hundreds of enterprise partnerships"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "thorne-health",
+    "name": "Thorne HealthTech",
+    "website": "https://thorne.com",
+    "description": "Integrated personalized health platform combining testing and supplements, taken private by L Catterton in 2023",
+    "founded": 1984,
+    "headquarters": "Summerville, SC",
+    "metrics": {
+      "totalFunding": null,
+      "lastFundingRound": null,
+      "estimatedUsers": null,
+      "employeeCount": 400,
+      "valuation": 550000000,
+      "publicTrading": {
+        "ticker": "THRN (delisted)",
+        "exchange": "Formerly NASDAQ",
+        "status": "Taken private by L Catterton (October 2023)"
+      }
+    },
+    "founders": ["Al Czap"],
+    "keyFeatures": [
+      "At-home blood tests",
+      "Personalized supplements",
+      "Clinically validated products",
+      "Professional-grade quality",
+      "40+ years in business",
+      "Acquired by L Catterton private equity"
+    ],
+    "lastUpdated": "2025-11-15"
+  },
+  {
+    "id": "superpower",
+    "name": "Superpower",
+    "website": "https://superpower.com",
+    "description": "Daily at-home health testing platform enabling continuous monitoring of key biomarkers",
+    "founded": 2021,
+    "headquarters": "San Francisco, CA",
+    "metrics": {
+      "totalFunding": null,
+      "lastFundingRound": null,
+      "estimatedUsers": null,
+      "employeeCount": null,
+      "valuation": null
+    },
+    "founders": [],
+    "keyFeatures": [
+      "Daily at-home testing",
+      "Continuous biomarker monitoring",
+      "Personalized health insights",
+      "Preventative health focus"
+    ],
+    "lastUpdated": "2025-11-14"
+  },
+  {
+    "id": "grail",
+    "name": "GRAIL",
+    "website": "https://grail.com",
+    "description": "Multi-cancer early detection blood test (Galleri) that can detect over 50 types of cancer, subsidiary of Illumina",
+    "founded": 2016,
+    "headquarters": "Menlo Park, CA",
+    "metrics": {
+      "totalFunding": 2000000000,
+      "lastFundingRound": {
+        "amount": 390000000,
+        "type": "Series D",
+        "date": "2021-05"
+      },
+      "estimatedUsers": null,
+      "employeeCount": 600,
+      "valuation": 8000000000
+    },
+    "founders": ["Jeff Huber"],
+    "keyFeatures": [
+      "Multi-cancer early detection",
+      "Detects 50+ cancer types",
+      "Single blood test (Galleri)",
+      "Predicts cancer signal origin",
+      "Available by prescription",
+      "Subsidiary of Illumina",
+      "Over $2B in funding"
+    ],
+    "lastUpdated": "2025-11-14"
+  }
+]

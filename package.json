@@ -1,0 +1,26 @@
+{
+  "name": "blood-test-startup-tracker",
+  "version": "1.0.0",
+  "description": "Dashboard to track metrics for top blood test startups",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
+    "dev:api": "cd packages/api && npm run dev",
+    "dev:web": "cd packages/web && npm run dev",
+    "build": "npm run build:api && npm run build:web",
+    "build:api": "cd packages/api && npm run build",
+    "build:web": "cd packages/web && npm run build"
+  },
+  "keywords": [
+    "health-tech",
+    "blood-test",
+    "startup-tracker",
+    "dashboard"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "function-health": {
+    "brandColor": "#DC2626",
+    "history": [
+      {
+        "date": "2023-06-01",
+        "totalFunding": 0,
+        "estimatedUsers": 10000,
+        "valuation": null,
+        "revenue": null
+      },
+      {
+        "date": "2023-09-01",
+        "totalFunding": 10000000,
+        "estimatedUsers": 20000,
+        "valuation": 191000000,
+        "revenue": 5000000
+      },
+      {
+        "date": "2023-12-01",
+        "totalFunding": 10000000,
+        "estimatedUsers": 30000,
+        "valuation": 191000000,
+        "revenue": 15000000
+      },
+      {
+        "date": "2024-03-01",
+        "totalFunding": 10000000,
+        "estimatedUsers": 40000,
+        "valuation": 191000000,
+        "revenue": 30000000
+      },
+      {
+        "date": "2024-06-01",
+        "totalFunding": 53000000,
+        "estimatedUsers": 50000,
+        "valuation": 191000000,
+        "revenue": 50000000
+      },
+      {
+        "date": "2024-09-01",
+        "totalFunding": 106000000,
+        "estimatedUsers": 100000,
+        "valuation": 191000000,
+        "revenue": 75000000
+      },
+      {
+        "date": "2024-12-01",
+        "totalFunding": 106000000,
+        "estimatedUsers": 150000,
+        "valuation": 191000000,
+        "revenue": 90000000
+      },
+      {
+        "date": "2025-02-01",
+        "totalFunding": 306000000,
+        "estimatedUsers": 200000,
+        "valuation": 2500000000,
+        "revenue": 100000000
+      }
+    ]
+  },
+  "insidetracker": {
+    "brandColor": "#2563EB",
+    "history": [
+      {
+        "date": "2022-09-01",
+        "totalFunding": 19000000,
+        "estimatedUsers": 50000,
+        "valuation": 30000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-03-01",
+        "totalFunding": 19000000,
+        "estimatedUsers": 60000,
+        "valuation": 30000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-09-01",
+        "totalFunding": 19000000,
+        "estimatedUsers": 70000,
+        "valuation": 30000000,
+        "revenue": null
+      },
+      {
+        "date": "2024-03-01",
+        "totalFunding": 19000000,
+        "estimatedUsers": 85000,
+        "valuation": 30000000,
+        "revenue": null
+      },
+      {
+        "date": "2024-09-01",
+        "totalFunding": 19000000,
+        "estimatedUsers": 95000,
+        "valuation": 30000000,
+        "revenue": null
+      },
+      {
+        "date": "2025-02-01",
+        "totalFunding": 19000000,
+        "estimatedUsers": 100000,
+        "valuation": 30000000,
+        "revenue": null
+      }
+    ]
+  },
+  "everlywell": {
+    "brandColor": "#059669",
+    "history": [
+      {
+        "date": "2020-12-01",
+        "totalFunding": 250000000,
+        "estimatedUsers": 30000000,
+        "valuation": 2900000000,
+        "revenue": null
+      },
+      {
+        "date": "2021-06-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 35000000,
+        "valuation": 2900000000,
+        "revenue": null
+      },
+      {
+        "date": "2022-03-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 40000000,
+        "valuation": 1300000000,
+        "revenue": null
+      },
+      {
+        "date": "2022-09-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 45000000,
+        "valuation": 1300000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-03-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 50000000,
+        "valuation": 1300000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-09-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 53000000,
+        "valuation": 1300000000,
+        "revenue": null
+      },
+      {
+        "date": "2024-03-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 56000000,
+        "valuation": 1300000000,
+        "revenue": null
+      },
+      {
+        "date": "2024-09-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 58000000,
+        "valuation": 1300000000,
+        "revenue": null
+      },
+      {
+        "date": "2025-02-01",
+        "totalFunding": 325000000,
+        "estimatedUsers": 60000000,
+        "valuation": 1300000000,
+        "revenue": null
+      }
+    ]
+  },
+  "thorne-health": {
+    "brandColor": "#9333EA",
+    "history": [
+      {
+        "date": "2022-12-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": 550000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-06-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": 550000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-10-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": 550000000,
+        "revenue": null
+      },
+      {
+        "date": "2024-06-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": 550000000,
+        "revenue": null
+      },
+      {
+        "date": "2025-02-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": 550000000,
+        "revenue": null
+      }
+    ]
+  },
+  "superpower": {
+    "brandColor": "#F59E0B",
+    "history": [
+      {
+        "date": "2022-06-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": null,
+        "revenue": null
+      },
+      {
+        "date": "2023-03-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": null,
+        "revenue": null
+      },
+      {
+        "date": "2024-03-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": null,
+        "revenue": null
+      },
+      {
+        "date": "2025-02-01",
+        "totalFunding": null,
+        "estimatedUsers": null,
+        "valuation": null,
+        "revenue": null
+      }
+    ]
+  },
+  "grail": {
+    "brandColor": "#EC4899",
+    "history": [
+      {
+        "date": "2018-03-01",
+        "totalFunding": 1000000000,
+        "estimatedUsers": null,
+        "valuation": 3000000000,
+        "revenue": null
+      },
+      {
+        "date": "2019-09-01",
+        "totalFunding": 1600000000,
+        "estimatedUsers": null,
+        "valuation": 5000000000,
+        "revenue": null
+      },
+      {
+        "date": "2021-05-01",
+        "totalFunding": 2000000000,
+        "estimatedUsers": null,
+        "valuation": 8000000000,
+        "revenue": null
+      },
+      {
+        "date": "2022-06-01",
+        "totalFunding": 2000000000,
+        "estimatedUsers": null,
+        "valuation": 8000000000,
+        "revenue": null
+      },
+      {
+        "date": "2023-06-01",
+        "totalFunding": 2000000000,
+        "estimatedUsers": null,
+        "valuation": 8000000000,
+        "revenue": null
+      },
+      {
+        "date": "2024-06-01",
+        "totalFunding": 2000000000,
+        "estimatedUsers": null,
+        "valuation": 8000000000,
+        "revenue": null
+      },
+      {
+        "date": "2025-02-01",
+        "totalFunding": 2000000000,
+        "estimatedUsers": null,
+        "valuation": 8000000000,
+        "revenue": null
+      }
+    ]
+  }
+}

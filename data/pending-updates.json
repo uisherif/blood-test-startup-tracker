@@ -1,0 +1,40 @@
+[
+  {
+    "id": "test-function-health-totalFunding-1731654321000",
+    "startupId": "function-health",
+    "field": "totalFunding",
+    "oldValue": 306000000,
+    "newValue": 500000000,
+    "source": "https://techcrunch.com/2025/11/14/function-health-raises-200m-series-c",
+    "confidence": "high",
+    "timestamp": "2025-11-14T12:00:00Z",
+    "status": "approved",
+    "reviewedAt": "2025-11-15T03:33:48.603Z",
+    "reviewedBy": "sherif"
+  },
+  {
+    "id": "test-everlywell-estimatedUsers-1731654322000",
+    "startupId": "everlywell",
+    "field": "estimatedUsers",
+    "oldValue": 60000000,
+    "newValue": 65000000,
+    "source": "https://forbes.com/2025/11/13/everlywell-reaches-65-million-users",
+    "confidence": "medium",
+    "timestamp": "2025-11-13T10:00:00Z",
+    "status": "rejected",
+    "reviewedAt": "2025-11-15T03:33:48.630Z",
+    "reviewedBy": "sherif",
+    "notes": "Medium confidence - need to verify from official source before applying"
+  },
+  {
+    "startupId": "superpower",
+    "field": "totalFunding",
+    "oldValue": null,
+    "newValue": 61000000,
+    "source": "https://www.globenewswire.com/news-release/2025/11/05/3181809/0/en/Giga-Raises-61M-in-New-Funding-to-Reinvent-AI-Powered-Support.html",
+    "confidence": "high",
+    "timestamp": "2025-11-05T17:15:00Z",
+    "id": "superpower-totalFunding-1763178868645",
+    "status": "pending"
+  }
+]
