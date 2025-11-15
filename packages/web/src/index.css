@@ -163,6 +163,30 @@ body {
   gap: 1rem;
 }
 
+.company-logo {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border: 2px solid var(--light-gray);
+  padding: 0.5rem;
+  background: var(--white);
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.company-logo:hover {
+  border-color: var(--red-primary);
+  transform: scale(1.05);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1;
+  gap: 1rem;
+}
+
 .startup-header h2 {
   font-family: 'DM Sans', sans-serif;
   font-size: 1.75rem;

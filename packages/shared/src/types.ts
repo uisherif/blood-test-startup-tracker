@@ -25,6 +25,7 @@ export interface Startup {
   description: string;
   founded: number;
   headquarters?: string;
+  logo?: string;
   metrics: StartupMetrics;
   founders?: string[];
   keyFeatures?: string[];

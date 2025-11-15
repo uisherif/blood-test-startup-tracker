@@ -26,10 +26,15 @@ export function StartupCard({ startup }: StartupCardProps) {
   return (
     <div className="startup-card">
       <div className="startup-header">
-        <h2>{startup.name}</h2>
-        <a href={startup.website} target="_blank" rel="noopener noreferrer" className="website-link">
-          Visit Site →
-        </a>
+        {startup.logo && (
+          <img src={startup.logo} alt={`${startup.name} logo`} className="company-logo" />
+        )}
+        <div className="header-content">
+          <h2>{startup.name}</h2>
+          <a href={startup.website} target="_blank" rel="noopener noreferrer" className="website-link">
+            Visit Site →
+          </a>
+        </div>
       </div>
 
       <p className="description">{startup.description}</p>
