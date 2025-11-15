@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install && npm run build --workspace=packages/shared && npm run build --workspace=packages/web",
+  "buildCommand": "cd packages/shared && npm install && npm run build && cd ../web && npm install && npm run build",
   "installCommand": "npm install",
   "outputDirectory": "packages/web/dist",
   "rewrites": [
