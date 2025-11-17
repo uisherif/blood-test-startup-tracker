@@ -12,6 +12,7 @@ A real-time dashboard for tracking key metrics of leading consumer health testin
 - **🏥 Clean Design** - Minimalist Red Cross aesthetic with bold typography
 - **⚡ Real-time** - Data updates reflected immediately
 - **🔍 Smart Parsing** - Extracts metrics from news articles automatically
+- **🔒 Secure API** - API key authentication and CORS protection
 
 ## 🚀 Tracked Companies
 
@@ -83,6 +84,11 @@ blood-test-startup-tracker/
 # Install dependencies
 npm install
 
+# Configure API security (optional for local development)
+cd packages/api
+cp ../../.env.example .env
+# Edit .env and set ADMIN_API_KEY (generate with: openssl rand -hex 32)
+
 # Start both API and web server
 npm run dev
 
@@ -92,18 +98,35 @@ npm run dev
 
 ### Run Automation
 
+**Note:** Admin endpoints require API key authentication. See [Security Guide](docs/SECURITY.md) for setup.
+
 ```bash
+# Set your API key (if configured)
+export API_KEY="your_api_key_here"
+
 # Trigger manual data refresh
-curl -X POST http://localhost:3001/api/updates/refresh
+curl -X POST \
+  -H "x-api-key: $API_KEY" \
+  http://localhost:3001/api/updates/refresh
 
 # View pending updates
-curl http://localhost:3001/api/updates/pending
+curl -H "x-api-key: $API_KEY" \
+  http://localhost:3001/api/updates/pending
 
 # Approve an update
 curl -X POST http://localhost:3001/api/updates/{id}/approve \
+  -H "x-api-key: $API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"reviewedBy":"your-name"}'
 ```
+
+## 🔒 Security
+
+Admin endpoints are protected with API key authentication. See [Security Guide](docs/SECURITY.md) for:
+- Generating secure API keys
+- Setting up authentication
+- CORS configuration
+- Production deployment checklist
 
 ## 🌐 Deploy to Production
 
